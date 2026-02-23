@@ -29,5 +29,26 @@ public class OOPSBANNERAPP {
         for (String line : lines) {
             System.out.println(line);
         }
+        System.out.println(String.join("",
+                "   ***   ", "   ***   ", "  ******  ", "   ***** "));
+        System.out.println(String.join("",
+                "  ** **  ", "  ** **  ", "  **   ** ", "  **   **"));
+        System.out.println(String.join("",
+                " **   ** ", " **   ** ", "  **   ** ", "  **     "));
+        System.out.println(String.join("",
+                " **   ** ", " **   ** ", "  ******  ", "   ***** "));
+        System.out.println(String.join("",
+                " **   ** ", " **   ** ", "  **      ", "       **"));
+        System.out.println(String.join("",
+                "  ** **  ", "  ** **  ", "  **      ", "  **   **"));
+        System.out.println(String.join("",
+                "   ***   ", "   ***   ", "  **      ", "   ***** "));
+        System.out.println("   ***   " + "   ***   " + "  ******  " + "   ***** ");
+        System.out.println("  ** **  " + "  ** **  " + "  **   ** " + "  **   **");
+        System.out.println(" **   ** " + " **   ** " + "  **   ** " + "  **     ");
+        System.out.println(" **   ** " + " **   ** " + "  ******  " + "   ***** ");
+        System.out.println(" **   ** " + " **   ** " + "  **      " + "       **");
+        System.out.println("  ** **  " + "  ** **  " + "  **      " + "  **   **");
+        System.out.println("   ***   " + "   ***   " + "  **      " + "   ***** ");
     }
 }
